@@ -3,7 +3,6 @@ package com.example.todoapp.fragments.list
 import android.app.AlertDialog
 import android.os.Bundle
 import android.view.*
-import android.widget.GridLayout
 import androidx.appcompat.widget.SearchView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -39,6 +38,7 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
         binding.lifecycleOwner = this
         binding.mSharedViewModel = mSharedViewModel
 
+
        //Setup Recylce View
         setupRecyclerView()
 
@@ -73,7 +73,7 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
                 mToDoViewModel.deleteItem(itemToDelete)
                 adapter.notifyItemRemoved(viewHolder.adapterPosition)
                 //Restore Deleted
-                restoreDeleteData(viewHolder.itemView, itemToDelete, viewHolder.adapterPosition)
+                restoreDeleteData(viewHolder.itemView, itemToDelete, viewHolder.position)
             }
         }
         val itemTouchHelper = ItemTouchHelper(swipeToDeleteCallback)
@@ -154,6 +154,5 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
         super.onDestroyView()
         _binding = null
     }
-
 
 }
