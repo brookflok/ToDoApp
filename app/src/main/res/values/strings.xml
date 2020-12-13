@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ToDo App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_button">Add_Button</string>
+    <string name="no_data_image">No Data Image</string>
+    <string name="no_data">No data</string>
+    <string name="appName">To Do List</string>
+    <string name="addListName">Add</string>
+    <string name="updateListName">Update</string>
+    <string name="addEditTextHint">Title</string>
+    <string name="Add_task_description">Task Description</string>
+    <string name="search_title">Search</string>
+    <string name="sort_by">Sort by</string>
+    <string name="priority_high">Priority High</string>
+    <string name="priority_low">Priority Low</string>
+    <string name="delete_all">Delete All</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="add_toast">Successfully added!</string>
+    <string name="add_toast_fill_all_fields">Please fill out all fields</string>
+    <string name="delete_title">\"Delete \"</string>
+    <string name="delete_message">\"Are you sure you want to delete \"</string>
+    <string name="delete_positive_button">Yes</string>
+    <string name="delete_negative_button">No</string>
+    <string name="delete_success_toast">\"Successfully Removed: \"</string>
+    <string name="remove_all_toast">Successfully Removed Everything!</string>
+    <string name="delete_all_title">Delete Everything</string>
+    <string name="delete_all_message">Are you sure you want to remove all items?</string>
+    <string name="restore_deleted_data_text">"Deleted "</string>
+    <string name="undo">Undo</string>
+
+    <string-array name="priorities">
+        <item>High Priority</item>
+        <item>Medium Priority</item>
+        <item>Low Priority</item>
+    </string-array>
+
+</resources>
