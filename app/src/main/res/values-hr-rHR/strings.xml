@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDo App</string>
+    <string name="hello_blank_fragment">Zdravo Prazni Fragmente</string>
+    <string name="add_button">Dodaj_Gumb</string>
+    <string name="no_data_image">Nema podataka</string>
+    <string name="no_data">Nema podataka</string>
+    <string name="appName">Lista obaveza</string>
+    <string name="addListName">Dodaj</string>
+    <string name="updateListName">Uredi</string>
+    <string name="addEditTextHint">Naslov</string>
+    <string name="Add_task_description">Opis Obaveze</string>
+    <string name="search_title">Pretraži</string>
+    <string name="sort_by">Poredaj po</string>
+    <string name="priority_high">Visoki Prioritet</string>
+    <string name="priority_low">Niski Prioritet</string>
+    <string name="delete_all">Izbriši sve</string>
+    <string name="add">Dodaj</string>
+    <string name="save">Snimi</string>
+    <string name="delete">Izbriši</string>
+    <string name="add_toast">Uspješno dodano</string>
+    <string name="add_toast_fill_all_fields">Molim vas popunite sva polja</string>
+    <string name="delete_title">Izbriši</string>
+    <string name="delete_message">Da li ste sigurni da želite da izbrišete</string>
+    <string name="delete_positive_button">Da</string>
+    <string name="delete_negative_button">Ne</string>
+    <string name="delete_success_toast">Uspješno izbrisano</string>
+    <string name="remove_all_toast">Uspješno ste izbrisali sve</string>
+    <string name="delete_all_title">Izbriši sve</string>
+    <string name="delete_all_message">Da li ste sigurni da želite sve da izbrišete</string>
+    <string name="restore_deleted_data_text">Izbrisano</string>
+    <string name="undo">Povrati</string>
+
+    <string-array name="priorities">
+        <item>Visoki Prioritet</item>
+        <item>Srednji Prioritet</item>
+        <item>Niski Prioritet</item>
+    </string-array>
+
+</resources>
